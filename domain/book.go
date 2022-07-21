@@ -17,15 +17,15 @@ type BookHandler interface {
 type BookUseCase interface {
 	AddBook(IDUser int, newBook Book) (Book, error)
 	GetAllBook() ([]Book, error)
-	// GetMyBook(idUser int, status int) ([]Book, error)
-	// UpdateBook(updateData Book) (Book, error)
-	// DeleteBook(idBook int) error
+	GetMyBook(idUser int, status int) ([]Book, error)
+	UpdateBook(updateData Book) (Book, error)
+	DeleteBook(idBook int) error
 }
 
 type BookData interface {
 	Insert(newBook Book) Book
 	GetAll() []Book
-	// Update(updatedBook Book) Book
-	// Delete(idBook int) bool
-	// GetSpecificBook(idUser int, ownStatus int) []Book
+	Update(updatedBook Book) Book
+	Delete(idBook int) bool
+	GetSpecificBook(idUser int, ownStatus int) []Book
 }
