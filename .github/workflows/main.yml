@@ -27,15 +27,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: jerry8287/be10play:latest
-          
-      - name: executing remote ssh commands using password
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEYSAYA }}
-          port: ${{ secrets.PORT }}
-          script: |
-            cd project
-            docker-compose down --rmi all --remove-orphans && docker-compose up -d --remove-orphans
+          tags: programmerreski/be10play:latest
