@@ -5,8 +5,8 @@ info:
   description: |
     Bagian ini adalah penjelasan dari dokumen Open API apa yang akan kita kerjakan. Sebagi materi pembahasan, kita akan berfokus menggunakan Project Pinjam Buku sebagai materi pembahasan.
   contact:
-    name: Jerry Young
-    email: jerryoung2911@gmail.com
+    name: reski
+    email: emailku@gmail.com
 tags:
   - name: "User"
     description: Servis yang mengorganisir data user
