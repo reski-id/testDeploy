@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: programmerreski/be10play:latest
+          tags: jerry8287/be10play:latest
