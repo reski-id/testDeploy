@@ -28,4 +28,5 @@ type BookData interface {
 	// Update(updatedBook Book) Book
 	// Delete(idBook int) bool
 	// GetSpecificBook(idUser int, ownStatus int) []Book
+	//more
 }
